@@ -21,7 +21,7 @@ const range   = document.querySelector('#range')
  const date      = document.querySelector('#date')
 
    button3.addEventListener('click',() =>{
-         alert('La fecha seleccionada en el elemento de fecha es un' + date.value)
+         alert('La fecha seleccionada en el elemento de fecha es ' + date.value)
          
      })
 
