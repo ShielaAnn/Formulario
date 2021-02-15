@@ -1,10 +1,13 @@
 ## Project-3-Formulario
+
+###Formulario Informacion Alta Telefonica. 📌
+
 This project is requirement from the course
 Junior Web Developer I am taking at 
 Bejob.
 https://www.bejob.com/
 
-Formulario Informacion Alta Telefonica. 📌
+
 
 ### Technologies Used ⚙️
 
