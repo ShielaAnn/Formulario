@@ -28,7 +28,7 @@
       <h1>Formulario Información Alta Telefónica</h1>
     </header>
 
-    <form class="data-form">
+    <form method="POST"class="data-form">
       <fieldset>
         <legend>Datos Personales</legend>
 
@@ -54,11 +54,11 @@
 
       <fieldset>
         <legend>Tipo de Contratacion</legend>
-        <input type="radio" id="radio" name="choose" />
+        <input type="radio" id="radio" name="choose"  required />
         Nueva Contratación
-        <input type="radio" id="radio" name="choose" />
+        <input type="radio" id="radio" name="choose" required />
         Portabilidad
-        <input type="radio" id="radio" cambio name="choose" />
+        <input type="radio" id="radio" cambio name="choose" required />
         Cambio de Contrato
         <br />
         <br />
@@ -94,7 +94,7 @@
         <legend>Datos Bancarios</legend>
         
         <label>Pais:</label>
-        <input type="text" placeholder="ES" disabled />sólo válido ES<br />
+        <input type="text" placeholder="ES" disabled required />sólo válido ES<br />
         <label>IBAN:</label>
         <input
           type="number"
@@ -129,9 +129,9 @@
       <input type="submit" id="button" value="Enviar Datos" />
       <input type="reset"  id="button" value="Borrar Datos" />
       <br /><br />
-      <input type="button" id="button1" class="Mostrar Valoracion"  value="Mostrar Valoracion" />
-      <input type="button" id="button2" class="Mostrar Cuenta"      value="Mostrar Cuenta" />
-      <input type="button" id="button3" class="Mostrar dia"         value="Mostrar Dia de Semana" />
+      <input type="button" id="button1" class="Mostrar Valoracion" value="Mostrar Valoracion" />
+      <input type="button" id="button2" class="Mostrar Cuenta" value="Mostrar Cuenta" />
+      <input type="button" id="button3" class="Mostrar dia" value="Mostrar Dia de Semana" />
       
    
     </form>
