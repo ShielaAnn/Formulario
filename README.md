@@ -5,7 +5,6 @@
 
 * []()HTML
 * []()CSS
-* []()SCSS
 * []()JAVASCRIPT
 
 
